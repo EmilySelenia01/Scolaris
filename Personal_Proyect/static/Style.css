@@ -1,0 +1,211 @@
+.fondo {
+    background-color: #e0f7fa;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #e0f7fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+
+header {
+    background-color: #26a69a;
+    color :white;
+}
+
+/*text central*/
+.hero {
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  header .nav-link {
+    color: white !important;
+    background: none !important;
+    border: none !important;
+    text-decoration: none !important;
+  }
+  
+  header .nav-link:hover {
+    color: #0056b3 !important;
+    text-decoration: underline;
+  }
+
+.btn-curse {
+    background-color: #26a69a; /* color de fondo */
+    color: white;              /* color del texto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.btn-curse:hover {
+    background-color: #0056b3; /* color al pasar el mouse */
+}
+
+/*Footer Style*/
+footer {
+    background: linear-gradient(to right, #1f2c34, #26a69a, #b39ddb);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    border-top: 3px solid #ffffff22;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ffe082; /* dorado suave para destacar links */
+  }
+  
+  footer p {
+    margin: 10px 0 0;
+    font-size: 13px;
+    opacity: 0.9;
+  }
+
+  .footer-social i {
+    font-size: 20px;
+    margin: 0 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-social i:hover {
+    transform: scale(1.2);
+    color: #ffe082;
+  }
+  
+  
+
+/*Colors for containers*/
+
+.container1 {
+    background: linear-gradient(to right, #2c3e50, #26a69a, #e0f7fa);
+    padding: 40px 20px;
+    color: white;
+   
+    margin-bottom: 30px; /
+
+}
+
+.containerCarru {
+    background: radial-gradient(circle, #b39ddb 0%, #29b5ce 60%, #1f2c34 100%);
+    padding: 40px 20px;
+}
+
+.shade {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
+
+.containerCard {
+    background: linear-gradient(135deg, #1f2c34, #26a69a, #b39ddb);
+    padding: 40px 20px;
+}
+
+
+
+.img-who {
+    width: 75%;
+    height: auto;
+    object-fit: cover; /* esto ajusta el contenido para que no se deforme */
+    border-radius: 8px; 
+}
+
+
+.carousel-item img {
+    width: auto;               /* que se ajuste horizontalmente según el tamaño */
+    height: 400px;             /* altura fija (ajustala si querés) */
+    object-fit: contain;       /* esto mantiene la imagen completa sin recortarla */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-caption {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* fondo sutil */
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: fit-content;
+  text-align: center;
+}
+
+.carousel-caption-custom {
+    color: rgb(22, 21, 21);
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+  }
+
+
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    flex-grow: 1; /* que el texto empuje el botón hacia abajo */
+    margin-bottom: 1rem;
+  }
+  
+  .card .btn {
+    margin-top: auto;
+  }
+  
+
+  .btn-action {
+    padding: 5px 12px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin: 2px;
+    width: 70px;
+    text-decoration: none; /* quita subrayado */
+    font-weight: normal;   /* quita negrita */
+}
+
+.btn-action.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-action.edit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}

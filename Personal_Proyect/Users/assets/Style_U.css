@@ -1,0 +1,113 @@
+body {
+    /*background: linear-gradient(135deg, #2f4538, #97b33c, #cbbf4d, #97b33c, #2f4538)*/
+    background: linear-gradient(to right, #2c3e50, #26a69a, #b5d1d4);
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+    width: 100%;
+    max-width: 400px;
+    color: white;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+.login-box i {
+    font-size: 50px;
+    color: #97b33c;
+}
+
+.btn-login {
+    background-color: #97b33c;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #7d9731;
+}
+
+.btn-register {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.btn-register:hover {
+    background-color: white;
+    color: #1b1b1b;
+}
+
+.btn-back {
+    background-color: #97b33c;
+    border: none;
+}
+
+.btn-back:hover {
+    background-color: #7d9731;
+}
+
+a.link-light:hover {
+    color: #cbbf4d;
+}
+
+/*PAGE REGISTER*/
+
+/* CONTENEDOR PRINCIPAL */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container_register {
+    background: white;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 420px;
+    background: linear-gradient(to right, #2c3e50, #26a69a, #b5d1d4);
+    border: 2px solid #97b33c;  /* borde verde lima */
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.register-card h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #deeee5;
+}
+
+.register-card .form-label {
+    font-weight: 600;
+    color: #c5d7cd;
+}
+
+.register-card .form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.btn-register {
+    background-color: #353f0e;
+    color: white;
+    border: 2px solid #2f4538;  /* borde verde oscuro */
+    border-radius: 12px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-register:hover {
+    background-color: #cbbf4d;  /* dorado suave */
+    color: #1b1b1b;
+    transform: scale(1.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}

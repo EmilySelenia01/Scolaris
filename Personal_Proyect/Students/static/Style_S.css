@@ -1,0 +1,51 @@
+/* Fondo general del contenedor de estudiantes */
+.container_student1 {
+    background: linear-gradient(135deg, #ffffff, #f8bbd0, #3e99e4);
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos exclusivos para las tablas del módulo Students */
+.table-students thead tr {
+    background: linear-gradient(to right, #3949ab, #512da8) !important;
+    color: white !important;
+}
+
+.table-students thead th {
+    text-align: center;
+    font-weight: bold;
+    border-right: 1px solid #ffffff44;
+}
+
+/* Filas intercaladas */
+.table-students tbody tr:nth-child(even) {
+    background-color: #f3e5f5;
+}
+
+.table-students tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Celdas */
+.table-students td,
+.table-students th {
+    vertical-align: middle;
+    padding: 12px;
+}
+
+/* Botones */
+.table-students .btn-danger {
+    background-color: #e53935;
+    border: none;
+}
+
+.table-students .btn-primary {
+    background-color: #5e35b1;
+    border: none;
+}
+
+/* Hover efecto */
+.table-students tbody tr:hover {
+    background-color: #e8eaf6;
+}

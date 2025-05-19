@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous" />
+
+            <link rel="stylesheet" href="../static/Style.css">
+            <link rel="stylesheet" href="./static/Style_S.css">
+
+    </head>
+
+    <body>
+        <header id="Header_Global">
+            <!-- place navbar here -->
+        </header>
+        <main>
+
+            <div class="container-fluid container_student1 shade mt-4 mb-4 ">
+
+                <h1 class="text-center">Welcome to the Students Module</h1>
+                <p class="text-center">
+                    Here you'll find all the students enrolled in the Scolaris platform.
+                    Manage student information, track their academic progress, and ensure they are aligned with the institution's educational goals.
+                </p>
+
+                <div class="row justify-content-center mb-4">
+                    <div class="col-md-8">
+                        <div class="input-group">
+                            <input type="text" id="inputSearchStudent"
+                                class="form-control"
+                                placeholder="Search Student for Name...">
+                            <button class="btn btn-primary"
+                                id="btnSearchStudent">Search</button>
+                            <button class="btn btn-info ms-2" type="button"
+                                id="btnAddStudent">Add Student</button>
+                            <div id="modalContainerStudent">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover text-center table-courses">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Cedula</th>
+                                <th>Correo</th>
+                                <th>Telefono</th>
+                                <th>Telefono 2</th>
+                                <th>Fecha Nacimiento</th>
+                                <th>Sexo</th>
+                                <th>Direccion</th>
+                                <th>Nombre</th>
+                                <th>Apellido 1</th>
+                                <th>Apellido 2</th>
+                                <th>Nacionalidad</th>
+                                <th>Id Carrera</th>
+                                <th>Usuario</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="dataTableStudents">
+
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </div>
+
+
+
+
+        </main>
+        <footer id="Footer_Global">
+            <!-- place footer here -->
+        </footer>
+
+        <!-- Bootstrap JavaScript Libraries -->
+
+        <div id="modals"></div>
+         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        
+        <script src="../static/UseHeaderFooter.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+
+        <script type="module" src="./JS/modalStudents.js"></script>
+        <script type="module" src="./JS/useStudent.js"></script>
+
+    </body>
+</html>

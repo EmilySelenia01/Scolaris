@@ -1,0 +1,51 @@
+/* Fondo general del contenedor de cursos */
+.container_course1 {
+    background: linear-gradient(135deg, #ffffff, #c8e6c9, #81d4fa);
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Estilos exclusivos para las tablas del módulo Courses */
+  .table-courses thead tr {
+    background: linear-gradient(to right, #26a69a, #1f2c34) !important;
+    color: white !important;
+  }
+  
+  .table-courses thead th {
+    text-align: center;
+    font-weight: bold;
+    border-right: 1px solid #ffffff44;
+  }
+  /* Filas intercaladas */
+  .table-courses tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .table-courses tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  
+  /* Celdas */
+  .table-courses td,
+  .table-courses th {
+    vertical-align: middle;
+    padding: 12px;
+  }
+  
+  /* Botones */
+  .table-courses .btn-danger {
+    background-color: #ef5350;
+    border: none;
+  }
+  
+  .table-courses .btn-primary {
+    background-color: #2979ff;
+    border: none;
+  }
+  
+  /* Hover efecto */
+  .table-courses tbody tr:hover {
+    background-color: #e0f2f1;
+  }
+  
